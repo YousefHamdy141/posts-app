@@ -1,0 +1,100 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* App container */
+.App {
+    display: flex;
+    height: 100vh;
+}
+
+/* Post list styles */
+.post-list {
+    width: 30%;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+    background-color: #ffffff;
+    overflow-y: auto;
+}
+
+.post-list h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.post-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.post-list li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.post-list li:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Post details styles */
+.post-details {
+    width: 70%;
+    padding: 20px;
+    background-color: #ffffff;
+    overflow-y: auto;
+}
+
+.post-details h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.search-bar {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+.post-details p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.post-details h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.post-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.post-details li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.post-details li strong {
+    display: block;
+    margin-bottom: 5px;
+}
